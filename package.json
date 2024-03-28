@@ -1,0 +1,20 @@
+{
+  "name": "scope-auth-weirdness",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20240320.1",
+    "@pothos/core": "^3.41.0",
+    "@pothos/plugin-scope-auth": "^3.21.1",
+    "graphql-yoga": "^5.2.0"
+  }
+}
